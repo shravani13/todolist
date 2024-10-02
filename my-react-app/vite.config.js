@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@mui/material', '@mui/icons-material','@mui/icons-material/CheckCircleOutline']
+      external: ['@mui/material', 
+      '@mui/icons-material',
+      '@mui/icons-material/CheckCircleOutline',
+      '@mui/icons-material/CheckCircle',
+      '@mui/icons-material/Delete']
     }
   }
 })
